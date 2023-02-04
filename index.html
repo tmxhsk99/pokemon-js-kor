@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <meta content='width=device-width, initial-scale=1, shrink-to-fit=no' name='viewport'>
+    <meta content='ie=edge' http-equiv='x-ua-compatible'>
+    <title>pokemon-js by Superpencil</title>
+    <link href='/favicon.ico' rel='shortcut icon' type='image/x-icon'>
+    <link href='/favicon.ico' rel='icon' type='image/x-icon'>
+    <link href='css/main.css' rel='stylesheet'>
+  </head>
+  <body>
+    <div id='pokemon'>
+      <div class='depth'>
+        <div class='layer foe'>
+          <div class='info'>
+            <div class='balls'>
+              <img src='img/blue_balls.svg'>
+            </div>
+            <div class='stats'>
+              <div class='name'></div>
+              <div class='level-wrap'>
+                <img src='img/level.svg'>
+                <span class='level'></span>
+              </div>
+              <div class='hp-wrap'>
+                <img src='img/hp.svg'>
+                <div class='hp-bar'>
+                  <div class='hp-bar-active'></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class='images'>
+            <div class='trainer'>
+              <img src='img/blue_front.svg'>
+            </div>
+            <div class='pokemon'>
+              <img src='img/eevee_front.svg'>
+            </div>
+          </div>
+        </div>
+        <div class='layer player'>
+          <div class='images'>
+            <div class='trainer'>
+              <img src='img/red_back.svg'>
+            </div>
+            <div class='pokemon'>
+              <img src='img/pikachu_back.svg'>
+            </div>
+          </div>
+          <div class='info'>
+            <div class='balls'>
+              <img src='img/red_balls.svg'>
+            </div>
+            <div class='stats'>
+              <div class='name'></div>
+              <div class='level-wrap'>
+                <img src='img/level.svg'>
+                <span class='level'></span>
+              </div>
+              <div class='hp-wrap'>
+                <img src='img/hp.svg'>
+                <div class='hp-bar'>
+                  <div class='hp-bar-active'></div>
+                </div>
+              </div>
+              <div class='health'>
+                <span class='hp'></span>
+                <span>/</span>
+                <span class='hpTotal'></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class='layer windows'>
+          <div class='window texts'>
+            <div class='text text1'></div>
+            <div class='text text2'></div>
+          </div>
+          <div class='window menu'>
+            <span class='button fight'>싸우다</span>
+            <span class='button pkmn'>포켓몬</span>
+            <span class='button item'>아이템</span>
+            <span class='button run'>도망치다</span>
+          </div>
+          <div class='window fight'>
+            <div class='button' id='move0'></div>
+            <div class='button' id='move1'></div>
+            <div class='button' id='move2'></div>
+            <div class='button back'>취소</div>
+            <div class='window fight-details'>
+              <span class='type-header'>타입/</span>
+              <span class='type'>노말</span>
+            </div>
+          </div>
+          <div class='window item'>
+            <div class='button potion'>
+              <span>상처약 x</span>
+              <span class='potionCount'>1</span>
+            </div>
+            <div class='button back'>취소</div>
+          </div>
+          <div class='window pkmn'>
+            <div class='button playerPokemonButton'>
+              <span class='playerpokemonname'></span>
+            </div>
+            <div class='button back'>취소</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='text-area'>
+      <p>
+        pokemon-js by <a href='http://www.superpencil.com'>Superpencil</a>
+      </p>
+    </div>
+    <script crossorigin='anonymous' integrity='sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7' src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+    <script src='js/pokemon.js'></script>
+  </body>
+</html>
