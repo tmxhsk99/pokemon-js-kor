@@ -6,6 +6,7 @@ const Main = (props) => {
         <div>
             <Header></Header>
             <h1>Main.js</h1>
+            <Link to ='/Battle'>Battle</Link>
         </div>
 
     );
