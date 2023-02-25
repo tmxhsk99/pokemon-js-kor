@@ -5,6 +5,7 @@ $(document).ready(() => {
     $('button').toggleClass('active')
     $('.depth').removeAttr('style')
   })
+
   const handleMouseMove = e => {
     const offset = $('#pokemon').offset()
     const width = $('#pokemon').width()

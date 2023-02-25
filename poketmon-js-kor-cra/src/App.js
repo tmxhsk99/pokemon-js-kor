@@ -1,10 +1,10 @@
 import React, {Component} from "react";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 
-import Main from './components/Main';
-import Intro from './components/Intro';
+import Main from './pages/Main/Main';
+import Intro from './pages/Intro/Intro';
 import NotFound from "./components/NotFound";
-import Battle  from "./components/Battle";
+import Battle  from "./pages/Battle/Battle";
 
 function App() {
     return (

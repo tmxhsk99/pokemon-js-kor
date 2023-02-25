@@ -462,16 +462,16 @@ const Battle = () => {
                     <div className='layer foe'>
                         <div className='info'>
                             <div className='balls'>
-                                <img src='../assets/img/blue_balls.svg'/>
+                                <img src='../../assets/img/blue_balls.svg'/>
                             </div>
                             <div className='stats'>
                                 <div className='name'></div>
                                 <div className='level-wrap'>
-                                    <img src='../assets/img/level.svg'/>
+                                    <img src='../../assets/img/level.svg'/>
                                     <span className='level'></span>
                                 </div>
                                 <div className='hp-wrap'>
-                                    <img src='../assets/img/hp.svg'/>
+                                    <img src='../../assets/img/hp.svg'/>
                                     <div className='hp-bar'>
                                         <div className='hp-bar-active'></div>
                                     </div>
@@ -480,34 +480,34 @@ const Battle = () => {
                         </div>
                         <div className='images'>
                             <div className='trainer'>
-                                <img src='../assets/img/blue_front.svg'/>
+                                <img src='../../assets/img/blue_front.svg'/>
                             </div>
                             <div className='pokemon'>
-                                <img src='../assets/img/eevee_front.svg'/>
+                                <img src='../../assets/img/eevee_front.svg'/>
                             </div>
                         </div>
                     </div>
                     <div className='layer player'>
                         <div className='images'>
                             <div className='trainer'>
-                                <img src='../assets/img/red_back.svg'/>
+                                <img src='../../assets/img/red_back.svg'/>
                             </div>
                             <div className='pokemon'>
-                                <img src='../assets/img/pikachu_back.svg'/>
+                                <img src='../../assets/img/pikachu_back.svg'/>
                             </div>
                         </div>
                         <div className='info'>
                             <div className='balls'>
-                                <img src='../assets/img/red_balls.svg'/>
+                                <img src='../../assets/img/red_balls.svg'/>
                             </div>
                             <div className='stats'>
                                 <div className='name'></div>
                                 <div className='level-wrap'>
-                                    <img src='../assets/img/level.svg'/>
+                                    <img src='../../assets/img/level.svg'/>
                                     <span className='level'></span>
                                 </div>
                                 <div className='hp-wrap'>
-                                    <img src='../assets/img/hp.svg'/>
+                                    <img src='../../assets/img/hp.svg'/>
                                     <div className='hp-bar'/>
                                     <div className='hp-bar-active'></div>
                                 </div>
@@ -528,11 +528,11 @@ const Battle = () => {
                     <div className='window menu'>
                         <span className='button fight'>FIGHT</span>
                         <span className='button pkmn'>
-              <sup>P</sup>
-              <sub>K</sub>
-              <sup>M</sup>
-              <sub>N</sub>
-            </span>
+                          <sup>P</sup>
+                          <sub>K</sub>
+                          <sup>M</sup>
+                          <sub>N</sub>
+                        </span>
                         <span className='button item'>ITEM</span>
                         <span className='button run'>RUN</span>
                     </div>
